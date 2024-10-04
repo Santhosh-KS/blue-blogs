@@ -17,19 +17,19 @@ confirm:
 # BUILD
 # ==================================================================================== #
 
-## build: build the cmd/api application
-.PHONY: build
-build:
-	@echo 'Building cmd/api...'
-	jeklly build
+## build/local: build the  application and serve locally
+.PHONY: build/local
+build/local:
+	@echo 'Building locally...'
+	jekyll build && jekyll serve
 
 # ==================================================================================== #
 # DEVELOPMENT
 # ==================================================================================== #
 
-## run/api: run the cmd/api application
-.PHONY: deploy 
-deploy:
+## build/deploy: deploy the application on the server 
+.PHONY: build/deploy 
+build/deploy:
 	@echo 'Deploying...'
 	bash ./deploy.sh ${GIT_REPO}
 	

@@ -2,25 +2,25 @@
 permalink:      pretty
 
 # Setup
-title:          Blue
-description:    Minimalist Jekyll theme based on Bulma.
+title:          The Diary of an Entreprenur 
+description:    Life notes 
 baseurl:        
-url:            "https://jsalvador.me"
+url:            "https://techkunstler.in"
 
-color:          link
+color:          primary 
 
 author:
-  name:         Juanjo Salvador
-  url:          http://jsalvador.me
-  email:                                           # Place your email here
-  github:       JuanjoSalvador                     # Place your GitHub username here
-  twitter:      Linuxneitor                        # Place your twitter username here
-  mastodon:     https://mastodon.social/@jsalvador # Place your profile URL here
-
-twitter:
-  username: Linuxneitor
-  card: summary
-locale: es_ES
+  name:         Santhosh K S 
+  url:          https://techkunstler.in
+  email:        santhosh@techkunstler.com                                   # Place your email here
+  github:       Santhosh-KS                        # Place your GitHub username here
+  linkedIn:     santhosh-k-s-07542623              # Place your LinkdIn username here
+  # twitter:      Linuxneitor                        # Place your twitter username here
+  # mastodon:     https://mastodon.social/@jsalvador # Place your profile URL here
+# twitter:
+  # username: Linuxneitor
+  # card: summary
+# locale: es_ES
 
 # Assets
 sass:
