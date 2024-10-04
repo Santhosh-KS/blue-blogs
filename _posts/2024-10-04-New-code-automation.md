@@ -1,14 +1,12 @@
 ---
 layout: post
-title: Let's code!
+title: Automatic deployment 
 ---
 
 
-Your posts can contain code blocks. With built-in synthax highlight, thanks to Rouge rubygem.
-
+How did I automate my hostinger things.. Some more automation.
+<br>
 ```python
-# This is how Blue can show your code
-
 def foo():
     print("Hello World!")
 ```
